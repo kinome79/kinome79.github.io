@@ -1,0 +1,118 @@
+body {
+    background: top/cover no-repeat fixed url("https://kinome79.github.io/images/background.jpg");
+    text-align: center
+  }
+  
+  h1 {
+    margin: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    font-size: 3rem;
+    height: 25px;
+  }
+  
+  h2 {
+    padding-top: 5px;
+    height: 45px;
+    background-color: rgba(200,255,200,.3);
+    color: black;
+    font-size: 2.2rem;
+    border-radius: 30px;
+    margin: 10px;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  #main {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    right: 50px;
+    width: 50%;
+    min-height: 90%;
+    background-color: rgba(0,0,55,.7);
+    border-radius: 30px;
+    padding: 20px;
+    color: #BBDDFF;
+  }
+  
+  #input {
+    display: flex; 
+    flex-direction: column;
+    align-self: center;
+    text-align: left;
+    border: outset 4px darkblue;
+    border-radius: 30px;
+    width: 75%;
+    padding: 20px;
+    background-color: darkblue;
+  }
+  
+  .input {
+    background-color: #CCF;
+    color: #00F;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+  }
+  
+  #url {
+    width: 100%;
+  }
+  
+  #type-field {
+    padding: 20px;
+  }
+  
+  #type-select {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #data {
+    width: 100%;
+    resize: none;
+  }
+  
+  button {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(45deg, lightgreen, green);
+    color: black;
+    border-radius: 10px;
+  }
+  
+  #results {
+    align-self: center;
+    text-align: left;
+    background-color: rgba(200,220,255,1);
+    color: darkblue;
+    border-radius: 30px;
+    width: 75%;
+    min-height: 100px;
+    padding: 20px;
+    word-break: break-all;
+  }
+  
+  footer > p {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
