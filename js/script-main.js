@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         const data = JSON.parse($('#data').val());
       } catch(e) {
-        alert ("ERROR: Data to send is not formatted properly. Request not sent.");
+        return alert ("ERROR: Data to send is not formatted properly. Request not sent.");
       }
     
     $.ajax({
