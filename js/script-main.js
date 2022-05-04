@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       } catch(e) {
         return alert ("ERROR: Data to send is not formatted properly. Request not sent.");
       }
-    
+      document.getElementById("results").innerHTML = "";
     $.ajax({
           type: type,
           url: url,
