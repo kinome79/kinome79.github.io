@@ -11,8 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const sendAJAX  = () => {
       const url = $('#url').val();
       const type = $("input[name=type]:checked").val();
+      let data;
       try {
-        const data = JSON.parse($('#data').val());
+        data = JSON.parse($('#data').val());
       } catch(e) {
         return alert ("ERROR: Data to send is not formatted properly. Request not sent.");
       }
