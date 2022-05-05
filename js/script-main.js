@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
           url: url,
           data: data, 
           success: (returnData) => {
-              document.getElementById("results").innerHTML = JSON.stringify(returnData);
+              document.getElementById("results").textContent = JSON.stringify(returnData);
           }
       });
   }
