@@ -18,20 +18,20 @@ document.addEventListener('DOMContentLoaded', () => {
         return alert ("ERROR: Data to send is not formatted properly. Request not sent.");
       }
       document.getElementById("results").innerHTML = "";
-    /*$.ajax({
+    $.ajax({
           type: type,
           url: url,
           data: data, 
           success: (returnData) => {
               document.getElementById("results").textContent = JSON.stringify(returnData);
           }
-      });*/
-      fetch(url, 
+      });
+      /*fetch(url, 
         {method: type, headers: {'Content-Type': 'application/json'}, 
         body: data})
     .then( response => response.text())
     .then( mydata => {
         document.getElementById("results").textContent = JSON.stringify(mydata)
-    })    
+    })  */  
   }
 
